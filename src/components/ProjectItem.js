@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { AiOutlineLink } from 'react-icons/ai'
-import Itemstyle from '../Style/ProjectItem.styles'
+import Itemstyle from '../style/ProjectItem.styles'
 
 
 

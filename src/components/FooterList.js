@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import FooterItemstyle from '../Style/FooterList.styles'
+import FooterItemstyle from '../style/FooterList.styles'
 
 export default function FooterList({items,heading}) {
     return (

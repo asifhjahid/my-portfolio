@@ -1,8 +1,8 @@
-import ProjectOne from '../Images/project1.jpg'
-import ProjectTwo from '../Images/project2.jpg'
-import ProjectThree from '../Images/project3.jpg'
-import ProjectFour from '../Images/project4.jpg'
-import ProjectFive from '../Images/project5.jpg'
+import ProjectOne from '../projectImages/project1.jpg'
+import ProjectTwo from '../projectImages/project2.jpg'
+import ProjectThree from '../projectImages/project3.jpg'
+import ProjectFour from '../projectImages/project4.jpg'
+import ProjectFive from '../projectImages/project5.jpg'
 
 
 const projects = [

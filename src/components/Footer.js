@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook,FaTwitter,FaLinkedinIn,FaGithub } from 'react-icons/fa'
-import { FooterStyle } from '../Style/Footer.styles'
-import { LastPart } from '../Style/Footer.styles'
+import { FooterStyle } from '../style/Footer.styles'
+import { LastPart } from '../style/Footer.styles'
 import FooterList from './FooterList'
 
 

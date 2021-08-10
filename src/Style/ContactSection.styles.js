@@ -6,7 +6,7 @@ export const ContactStyle = styled.div`
         
         .contactSectionWrap{
             display: flex;
-            margin-top: 5rem;
+            margin-top: 10rem;
             justify-content: space-between;
             gap: 40rem;
             position: relative;
@@ -17,7 +17,22 @@ export const ContactStyle = styled.div`
         .right{
             border-radius: 12px;
             width: 100%;
-            margin-top: -2rem;
+            margin-top: -2.8rem;
+        }
+        @media only screen and (max-width: 1200px){
+            .contactSectionWrap{
+                gap: 30rem;
+            }
+        }
+        @media only screen and (max-width: 1000px){
+            .contactSectionWrap{
+                gap: 20rem;
+            }
+        }
+        @media only screen and (max-width: 850px){
+            .contactSectionWrap{
+                gap: 12rem;
+            }
         }
         
          @media only screen and (max-width:768px){

@@ -3,7 +3,7 @@ import TitleName from './TitleName'
 import ContactInfoItem from './ContactInfoItem'
 import { MdLocalPhone, MdMail, MdPlace } from 'react-icons/md'
 import ContactForm from './ContactForm'
-import { ContactStyle } from '../Style/ContactSection.styles'
+import { ContactStyle } from '../style/ContactSection.styles'
 
 
 export default function ContactSection() {
@@ -26,7 +26,7 @@ export default function ContactSection() {
                 text='Kallyanpur, Dhaka'
                 />
                  </div>
-                <div className='right'>
+                <div className='right'>s
                 <ContactForm />
                 </div>
                 </div>

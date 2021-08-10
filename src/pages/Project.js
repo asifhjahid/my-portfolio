@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { MainLayout, InnerLayout} from '../Style/Layout.styles'
+import { MainLayout, InnerLayout} from '../style/Layout.styles'
 import TitleName from '../components/TitleName'
 import Projects from '../assets/data/projects'
 import ProjectItem from '../components/ProjectItem'

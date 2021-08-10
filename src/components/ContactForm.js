@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import ContactFormStyle from '../Style/ContactForm.styles'
+import ContactFormStyle from '../style/ContactForm.styles'
 
 
 export default function ContactForm() {
@@ -10,8 +10,8 @@ export default function ContactForm() {
         <div>
             <ContactFormStyle >
                 <div className='formGroup'>
-                    <label htmlFor='name'>Your Name
-                    <input  type='text' id='name' name='name' value={name} 
+                    <label htmlFor='name'> Your Name
+                    <input  type='text' id='name' name='name' placeholder='Name' value={name} 
                     onChange={(e)=>setName(e.target.value)}
                     />
 
@@ -19,7 +19,7 @@ export default function ContactForm() {
                 </div>
                 <div className='formGroup'>
                     <label htmlFor='email'>Your Email
-                    <input  type='email' id='email' name='email' value={email} 
+                    <input  type='email' id='email' name='email'placeholder='Email' value={email} 
                     onChange={(e)=>setEmail(e.target.value)}
                     />
 

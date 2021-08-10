@@ -3,7 +3,7 @@ import TitleName from './TitleName'
 import ClientReviews from '../assets/data/ClientReviews'
 import { MdArrowBack,MdArrowForward } from 'react-icons/md'
 import { SwitchTransition, CSSTransition } from 'react-transition-group'
-import ReviewStyle from '../Style/Review.styles'
+import ReviewStyle from '../style/Review.styles'
 
 
 export default function ClientReviewSection(){

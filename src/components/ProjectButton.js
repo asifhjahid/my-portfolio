@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectBtnStyle,ProjectsBtnStyle } from '../Style/Button.styles'
+import { ProjectBtnStyle,ProjectsBtnStyle } from '../style/Button.styles'
 
 export default function ProjectButton({button,filter}) {
     return (

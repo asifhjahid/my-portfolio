@@ -1,5 +1,5 @@
 import React from 'react'
-import ServicesItemStyle from '../Style/ServicesItems.styles'
+import ServicesItemStyle from '../style/ServicesItems.styles'
 
 export default function ServicesItems({icon,title,descrip}) {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionImg from '../Images/about2.jpg'
-import SectionStyled from '../Style/StartingSection.styles' 
+import SectionImg from '../images/about2.jpg'
+import SectionStyled from '../style/StartingSection.styles' 
 import Button from './Button'
 
 

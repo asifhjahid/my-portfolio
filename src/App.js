@@ -1,7 +1,7 @@
 import React from 'react'
 import{BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Stylegraphy from './Style/Stylegraphy';
-import GlobalStyles from './Style/Global.styles'
+import Stylegraphy from './style/Stylegraphy';
+import GlobalStyles from './style/Global.styles'
 import NavMenu from './components/NavMenu'
 import Home from './pages/Home'
 import About from './pages/About'

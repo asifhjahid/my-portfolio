@@ -17,9 +17,6 @@ export default function Home() {
             <ServicesSection /> 
             <ProjectsSection />
             <ClientReviewSection />
-            
-            
-            
         </div>
     )
 }

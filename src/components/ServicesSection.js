@@ -2,7 +2,7 @@ import React from 'react'
 import TitleName from './TitleName'
 import {MdDesktopWindows,MdCode,MdPhonelinkSetup} from 'react-icons/md'
 import ServicesItems from './ServicesItems'
-import ServicesStyle from '../Style/ServicesSection.styles'
+import ServicesStyle from '../style/ServicesSection.styles'
 
 
 

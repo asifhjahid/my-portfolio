@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { NavLink} from 'react-router-dom'
 import {MdMenu,MdClose} from 'react-icons/md'
-import NavStyle from '../Style/NavMenu.styles'
+import NavStyle from '../style/NavMenu.styles'
 
 
 
