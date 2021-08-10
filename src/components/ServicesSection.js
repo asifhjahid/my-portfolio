@@ -2,7 +2,7 @@ import React from 'react'
 import TitleName from './TitleName'
 import {MdDesktopWindows,MdCode,MdPhonelinkSetup} from 'react-icons/md'
 import ServicesItems from './ServicesItems'
-import ServicesStyle from '../Style/ServicesPart.styles'
+import ServicesStyle from '../Style/ServicesSection.styles'
 
 
 
@@ -30,8 +30,7 @@ export default function ServicesPart() {
                 />
                 </div>
             
-                
-            </div>
+                </div>
         </ServicesStyle>
     )
 }

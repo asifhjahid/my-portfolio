@@ -8,14 +8,16 @@ export const ContactStyle = styled.div`
             display: flex;
             margin-top: 5rem;
             justify-content: space-between;
+            gap: 40rem;
+            position: relative;
         }
         .left{
-            margin-left: 8rem;
+            width: 100%;
         }
         .right{
             border-radius: 12px;
-            margin-left: 46rem;
-            margin-top: -3rem;
+            width: 100%;
+            margin-top: -2rem;
         }
         
          @media only screen and (max-width:768px){
@@ -23,14 +25,13 @@ export const ContactStyle = styled.div`
             .contactSectionWrap{
                 display: flex;
                 flex-direction: column;
+                gap: 8rem;
             }
             
             .letf,.right{
                 width: 100%;
             }
             .right{
-                
-                margin-left: -.01rem;
                 padding: 2rem 0 2rem 2rem;
             }
         }
@@ -49,7 +50,7 @@ export const ContactItemStyle = styled.div`
 
             .icon{
             color: #3B2F2F;
-            background-color: black;
+            background-color: #000000;
             padding: 1.3rem;
             display: flex;
             align-items: center;
@@ -58,13 +59,14 @@ export const ContactItemStyle = styled.div`
             }
             .icon{
                 svg{
-                    fill: white;
-                    font-size: 1.3rem;
+                    fill: #ffffff;
+                    font-size: 1.8rem;
                     
                 }
         }
         .para{
             color:#000000;
             font-size: 1.6rem;
+            font-family: sans-serif;
         }
 `

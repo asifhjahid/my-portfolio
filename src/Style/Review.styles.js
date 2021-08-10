@@ -23,7 +23,6 @@ const ReviewStyle = styled.div`
             }
         }
         .wrap{
-            /* position: relative; */
             margin: 0 auto;
             max-width: 600px;
            
@@ -40,6 +39,7 @@ const ReviewStyle = styled.div`
        .para{   
                 font-size:1.4rem ;
                 padding: 0 1.6rem;
+                font-family: sans-serif;
                 text-align: center;
                 color: #BCB4B4;
                 margin-bottom: 2rem;

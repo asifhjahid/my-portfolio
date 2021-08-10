@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 import TitleName from './TitleName'
 import AboutImg from '../Images/about5.jpg'
-import AboutStyle from '../Style/AboutPart.styles'
+import AboutStyle from '../Style/AboutSection.styles'
 
 export default function AboutPart() {
     return (

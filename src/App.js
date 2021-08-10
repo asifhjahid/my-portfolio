@@ -2,7 +2,7 @@ import React from 'react'
 import{BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Stylegraphy from './Style/Stylegraphy';
 import GlobalStyles from './Style/Global.styles'
-import Nav from './components/Nav'
+import NavMenu from './components/NavMenu'
 import Home from './pages/Home'
 import About from './pages/About'
 import Project from './pages/Project'
@@ -17,7 +17,7 @@ export default function App() {
       <Stylegraphy />
       <Router>
       
-      <Nav />
+      <NavMenu />
       
      <Switch>
         <Route path='/' exact>

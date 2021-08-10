@@ -28,24 +28,32 @@ export const AboutStyle = styled.div`
         .subTitle{
             margin-bottom: 1.8rem;
             font-size: 2rem;
+            font-family: sans-serif;
             span{
                 padding: .8rem;
                 background-color:  #1E1E1E;
                 border-radius: 10px;
+                font-family: sans-serif;
             }
         }
         .aboutTitle{
             margin-bottom: 2.8rem;
             font-size: 3.2rem;
+            font-family: sans-serif;
         }
         
         .aboutItems{
             margin-top: 10rem;
         }
         .para{
-            font-size: 1.3rem;
-            color: white;
+            font-size: 1.4rem;
+            font-family: sans-serif;
+            line-height: 2rem;
+            color: #BCB4B4;
             margin-bottom: 5rem;
+        }
+        .btn{
+            font-family: sans-serif;
         }
         @media only screen and (max-width:768px){
             padding: 10rem 0;

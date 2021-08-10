@@ -9,10 +9,11 @@ const ContactFormStyle = styled.div`
             align-items: right;
             }
             label{
+            color: #BCB4B4;
             font-size: 2rem;
+            font-family: sans-serif;
             }
             input, textarea{
-           
             width: 100%;
             font-size: 2rem;
             padding: 1.2rem;
@@ -31,6 +32,7 @@ const ContactFormStyle = styled.div`
         background-color: seagreen;
         color: seashell;
         font-size: 2rem;
+        font-family: sans-serif;
         display: inline-block;
         outline: none;
         border: none;

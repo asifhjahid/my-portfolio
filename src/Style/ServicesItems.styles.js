@@ -20,6 +20,7 @@ const ServicesItemStyle = styled.div`
         p{
             font-size: 2rem;
             color: #BCB4B4;
+            font-family: sans-serif;
         }
         
 `

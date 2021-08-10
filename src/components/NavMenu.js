@@ -1,11 +1,11 @@
 import React,{useState} from 'react'
 import { NavLink} from 'react-router-dom'
 import {MdMenu,MdClose} from 'react-icons/md'
-import NavStyle from '../Style/Nav.styles'
+import NavStyle from '../Style/NavMenu.styles'
 
 
 
-export default function NavMenu2() {
+export default function NavMenu() {
     const [showNav,setShowNav]= useState(false)
     return (
         <NavStyle>

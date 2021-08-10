@@ -7,23 +7,19 @@ import ProjectButton from './ProjectButton'
 
 
 
-
-
-
-
 const allButtons = ['All',...new Set(Projects.map((item)=>item.category))]
 
 export default function ProjectsPart() {
     const [itemList, setItemLists] = useState(Projects);
-    const[button] = useState(allButtons)
+    const [button] = useState(allButtons)
 
     const filter = (button)=>{
         if(button === 'All'){
             setItemLists(Projects);
             return;
     }
-    const filteredData = Projects.filter(item => item.category === button);
-        setItemLists(filteredData);
+    const filteredPrejects = Projects.filter(item => item.category === button);
+        setItemLists(filteredPrejects);
 }
     return (
         <MainLayout >

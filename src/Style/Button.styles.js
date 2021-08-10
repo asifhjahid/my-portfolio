@@ -9,7 +9,7 @@ import styled from 'styled-components'
         padding: 1rem 2rem;
         border-radius: 8px;
         display: inline-block;
-        background-color: white;
+        background-color: #ffffff;
     }
     @media only screen and (max-width:768px){
         .button{
@@ -26,7 +26,8 @@ outline: none;
     background-color: #29465B;
     padding: 1.5rem 3rem;
     font-size: 1.5rem;
-    color: white;
+    font-family: sans-serif;
+    color: #ffffff;
     cursor: pointer;
     transition: all .4s ease-in-out;
     margin-bottom: .6rem;
@@ -51,5 +52,5 @@ export const ProjectsBtnStyle = styled.div`
     width: 70%;
     margin: 2.4rem auto;
 
-`
+`;
 

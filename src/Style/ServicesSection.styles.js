@@ -4,13 +4,9 @@ const ServicesStyle = styled.div`
         margin-top: 14rem;
         background-color: #1E1E1E;
         border-radius: 10px;
-        
-       
         padding: 3rem;
-        .container{
-            /* margin-top: 12rem; */
-            
-        }
+       
+       
         .ServiceContainer{
             margin-top: -10rem;
             padding: 0 3rem 3rem 3rem;
@@ -22,11 +18,8 @@ const ServicesStyle = styled.div`
         .LineOne{
             margin-top: 3.5rem;
             display: flex;
-            /* justify-content: space-between; */
-            gap: 14rem;
-            /* margin-right: 4rem; */
-            
-            
+           gap: 14rem;
+        
         }
         
             
@@ -45,9 +38,7 @@ const ServicesStyle = styled.div`
                 gap: 2rem;
             }
             
-            /* .items{
-                text-align: center;
-            } */
+           
         }
 
 `

@@ -8,12 +8,12 @@ const AboutStyle = styled.div`
         .container{
             display: flex;
             align-items: center;
-            
             text-align: left;
         }
         p{
             color: #BCB4B4;
             font-size: 1.8rem;
+            font-family:sans-serif;
             margin-top: 1.8rem;
             margin-right: 2rem;
         }
@@ -34,6 +34,7 @@ const AboutStyle = styled.div`
         }
         .btn{
             background-color: coral;
+            color: #ffffff;
         }
         .aboutBtn{
             display: flex;

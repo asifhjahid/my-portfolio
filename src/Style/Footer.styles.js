@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const FooterStyle= styled.div`
 
         margin-top: 10rem;
-        /* background-color: whitesmoke; */
         background-color: #1E1E1E;
         .container{
             display: flex;
@@ -12,22 +11,24 @@ export const FooterStyle= styled.div`
         .col_1,.col_2,.col_3,.col_4{
             flex: 1;
         }
-        /* .col_2,.col_3,.col_4{
-            margin-left: 2rem;
-        } */
+
         .title{
             margin: 1rem 0;
-            color: white;
+            color: #ffffff;
+            font-family: sans-serif;
             font-size: 3rem;
         }
         p{
-            color: white;
+            color: #BCB4B4;
             font-size: 1.4rem;
+            font-family: sans-serif;
+            line-height: 2rem;
         }
         
-        .titleMe{
+        .followtitle{
             margin: 1.5rem 0 1.5rem .4rem;
-            color: white;
+            color: #ffffff;
+            font-family: sans-serif;
         }
         .facebook{
             svg{
@@ -85,11 +86,12 @@ export const LastPart = styled.div`
             margin-top: 1rem;
 
             .para{
-                color: white;
+                color:#BCB4B4;
                 font-size: 2rem;
                 text-align:center;
+                font-family:sans-serif;
                 .copyright{
-                    color: white;
+                    color: #BCB4B4;
                     font-size: 2.4rem;
                 }
             }

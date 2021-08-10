@@ -64,7 +64,7 @@ export default function Footer() {
                 />
             </div>
             <div className='col_4'>
-                <h1 className='titleMe'>Follow Me</h1>
+                <h1 className='followtitle'>Follow Me</h1>
                  <a className='facebook' href="https://www.facebook.com/" target="_blank" rel="noreferrer" alt=''>
                 <FaFacebook />
                 </a>

@@ -1,8 +1,8 @@
 import React from 'react'
-import AboutPart from '../components/AboutPart'
+import AboutSection from '../components/AboutSection'
 import ClientReviewSection from '../components/ClientReviewSection'
-import ProjectsPart from '../components/ProjectsPart'
-import ServicesPart from '../components/ServicesPart'
+import ProjectsSection from '../components/ProjectsSection'
+import ServicesSection from '../components/ServicesSection'
 import StartingSection from '../components/StartingSection'
 
 
@@ -13,9 +13,9 @@ export default function Home() {
     return (
         <div>
             <StartingSection />
-            <AboutPart />
-            <ServicesPart /> 
-            <ProjectsPart />
+            <AboutSection />
+            <ServicesSection /> 
+            <ProjectsSection />
             <ClientReviewSection />
             
             

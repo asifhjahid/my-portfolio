@@ -25,9 +25,10 @@ const SectionStyled = styled.div`
 
         }
         .Info{
-            color: white;
+            color: #EEEEFF;
             font-size: 2rem;
             margin-bottom: 15px;
+            font-family: sans-serif;
         }
         
         .btn{
@@ -40,11 +41,13 @@ const SectionStyled = styled.div`
         .span_1{
             color:#008000;
             font-size: 2.4rem;
+            font-family: sans-serif;
             
         }
         .span_2{
             color:#FFFF00 ;
             margin-left: .2rem;
+            font-family: sans-serif;
         }
         @media only screen and (max-width: 860px){
             .rightSection{

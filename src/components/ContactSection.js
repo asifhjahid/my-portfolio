@@ -11,9 +11,6 @@ export default function ContactSection() {
         <ContactStyle>
             <div className='container'>
                 <TitleName title="Contact" />
-                
-    
-              
                 <div className='contactSectionWrap'>
                 <div className='left'>
                 <ContactInfoItem 
@@ -26,7 +23,7 @@ export default function ContactSection() {
                 />
                 <ContactInfoItem 
                 icon={<MdPlace />}
-                text='+8801616882641'
+                text='Kallyanpur, Dhaka'
                 />
                  </div>
                 <div className='right'>

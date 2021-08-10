@@ -8,9 +8,6 @@ import ProjectButton from '../components/ProjectButton'
 
 
 
-
-
-
 const allButtons = ['All',...new Set(Projects.map((item)=>item.category))]
 
 export default function Project() {

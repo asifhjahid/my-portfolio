@@ -5,17 +5,16 @@ const FooterItemstyle = styled.div`
         .titleName{
             margin: 1.5rem 0;
             font-size: 2rem;
-            color:white;
+            color:#ffffff;
+            font-family: sans-serif;
         }
         li{
             margin-bottom: 1rem;
-            
-            
         }
         a{
             font-size: 1.8rem;
-            color: white;
-            
+            color: #BCB4B4;
+            font-family: sans-serif;
         }
 
 `
